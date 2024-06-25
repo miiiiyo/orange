@@ -3,7 +3,7 @@
  
 body {
 	
-	background-image: url(../img/winback.png);
+	background-image: url(../images/winback.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: "M PLUS Rounded 1c", sans-serif;
@@ -72,8 +72,8 @@ body {
 	0%{width: 0em;}
 	20% {width:0em}
 	40% {width:0em}
-	60% {width:5em}
-	to{width: 5em;}
+	60% {width:10em}
+	to{width: 10em;}
 }
 
 #s4 {
