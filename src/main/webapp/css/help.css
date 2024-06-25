@@ -65,14 +65,13 @@ body {
 }
 
 #s1 {
-	animation:s1 1s;
+	animation:s1 1.8s;
 	animation-fill-mode: forwards;
-
 }
 
 @keyframes s1 {
-	form{width: 0em;}
-	50% {width: 14;}
+	from{width: 0em;}
+	50% {width: 14em;}
 	to{width:14em;}
 }
 
