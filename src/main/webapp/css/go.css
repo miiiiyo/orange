@@ -1,7 +1,10 @@
+
 @charset "UTF-8";
+
+ 
 body {
 	
-	background-image: url(../images/go.png);
+	background-image: url(../img/go.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: "M PLUS Rounded 1c", sans-serif;
@@ -63,14 +66,13 @@ body {
 }
 
 #s1 {
-	animation:s1 1s;
+	animation:s1 1.5s;
 	animation-fill-mode: forwards;
-
 }
 
 @keyframes s1 {
-	form{width: 0em;}
-	50% {width: 13;}
+	from{width: 0em;}
+	50% {width: 13em;}
 	to{width:13em;}
 }
 
